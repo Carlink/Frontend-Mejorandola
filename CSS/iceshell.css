@@ -1,3 +1,1 @@
-body{
-    background-color: #2C2C2C;
-}
+body{padding:2%}header{background:#2c2c2c;}header .menuBars{height:50px;margin:25px 0 0 30px}header .logo{height:100px;margin-left:50px}nav{background:#008000}li{list-style:none}a{text-decoration:none}.left{float:left}.right{float:right}
