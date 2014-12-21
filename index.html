@@ -2,29 +2,31 @@
 <html lang="es">
 <head>
     <meta charset="utf-8" />
-    <title>Puls4: Comunidad para gente atractiva y millonaria</title>
+    <title>Iceshell</title>
     <link rel="stylesheet" href="CSS/iceshell.css" />
     <link rel="stylesheet" href="CSS/normalize.css" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
     <header>
-            <img class="menuBars" src="Images/menuBars.png" alt=""><img class="logo" src="Images/Logo_Iceshell@3x.png" alt="iceshell" />
+            <a class="bt_menu" href="#"><img class="menuBars" src="Images/menuBars.png" alt=""></a><img class="logo" src="Images/Logo_Iceshell@3x.png" alt="iceshell" />
     </header>
     <nav>
         <ul class="menu">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Portafolio</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#"><img src="menu_icons/menu_casa.svg">Inicio</a></li>
+            <li><a href="#"><img src="menu_icons/menu_port.svg">Portafolio</a></li>
+            <li><a href="#"><img src="menu_icons/menu_serv.svg">Servicios</a></li>
+            <li><a href="#"><img src="menu_icons/menu_blog.svg">Blog</a></li>
+            <li><a href="#"><img src="menu_icons/menu_cont.svg">Contacto</a></li>
         </ul>
     </nav>
-    <header class="encabezado">
+
+    <section class="encabezado">
             <div class="encabezado_align">
             <h2>Convierte tu idea en un logro</h2>
             <h3>Creamos tu proyecto a la medida, implementando las ultimas tecnologias de desarrollo.</h3>
             </div>
-    </header>
+    </section>
     <div class="boton"><a href="#">Portafolio</a></div>    <div class="boton"><a href="#">Contáctanos</a></div>
     <div class="content">
     <h2>Diseño y Desarrollo Multiplataforma Profesional</h2>
@@ -60,5 +62,10 @@
             <span class="autor">Carlink® 2014</span>
         </center>
     </footer>
+    <a id="shadow" href="#">
+    </a>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="Javascript/menu.js"></script>
 </body>
 </html>

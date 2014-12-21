@@ -1,25 +1,93 @@
 Gris_Menu = #2C2C2C 
+Gris_Menu_Hover = #5B5B5B
+Gris_Bordes_Menu = rgba(255,255,255,0.2)
 
 /* Main */
 
 body
     background: #FFF
+    min-width: 640px
 
 header
 	background: Gris_Menu
-	padding: 2% 0
+	position: relative
+	width: 100%
+	height: 130px
 	.menuBars
+		display: none
+		position: absolute
         height: 50px
-        margin: 25px 0 0 30px
-        float: left
-                
+        top: 39px
+        left: 44px                
     .logo
+    	position: absolute
     	height: 100px
-    	margin-left: 50px
+    	top: 15px
+    	left: 30%
 
 nav
-	background: green
-	
+	background: Gris_Menu
+	.menu
+		margin: 0 auto
+		overflow: hidden
+		li
+			float: left
+			overflow: hidden
+			img
+				height: 1em
+				margin-right: 8px
+			a
+				color: #ffffff
+				display: block
+				padding: 15px 0px
+				width: 150px
+				text-align: center
+			a:hover
+				background: Gris_Menu_Hover
+				
+@media screen and (max-width: 800px)	
+	header
+		top: 0
+		.menuBars
+			display: block
+	nav
+		position: fixed
+		background: Gris_Menu
+		width: 80%
+		height: 100%
+		margin: 0
+		top: 0
+		left: -100%
+		border-right: 5px solid #1486CB
+		z-index: 1
+		.menu
+			padding: 0
+			li
+				display: block
+				float: none
+				border-bottom: 1px solid Gris_Bordes_Menu
+				img
+					width: 53px
+
+				a
+					border-left: 17px solid #1486CB
+					padding-left: 25px
+					text-align: left
+					font-size: 2em				
+					width:100%
+	#shadow
+		display: none
+	    position: fixed
+	    top:0
+	    bottom: 0
+	    width: 100%
+	    height:100%
+	    background-color: rgba(0,0,0,0.6)
+	    z-index: 0
+
+
+header
+	margin: 0	
 		
 /*General Attributes*/
 
