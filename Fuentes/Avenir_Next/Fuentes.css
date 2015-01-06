@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'AvenirNext-UltraLight';
+    src: url('avenirnext-ultralight.eot');
+    src: url('avenirnext-ultralight.eot') format('embedded-opentype'),
+         url('avenirnext-ultralight.woff2') format('woff2'),
+         url('avenirnext-ultralight.woff') format('woff'),
+         url('avenirnext-ultralight.ttf') format('truetype'),
+         url('avenirnext-ultralight.svg#AvenirNextUltraLight') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirNext-Regular';
+    src: url('avenirnext-regular.eot');
+    src: url('avenirnext-regular.eot') format('embedded-opentype'),
+         url('avenirnext-regular.woff2') format('woff2'),
+         url('avenirnext-regular.woff') format('woff'),
+         url('avenirnext-regular.ttf') format('truetype'),
+         url('avenirnext-regular.svg#AvenirNextRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirNext-Bold';
+    src: url('avenirnext-bold.eot');
+    src: url('avenirnext-bold.eot') format('embedded-opentype'),
+         url('avenirnext-bold.woff2') format('woff2'),
+         url('avenirnext-bold.woff') format('woff'),
+         url('avenirnext-bold.ttf') format('truetype'),
+         url('avenirnext-bold.svg#AvenirNextBold') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirNext-DemiBold';
+    src: url('avenirnext-demibold.eot');
+    src: url('avenirnext-demibold.eot') format('embedded-opentype'),
+         url('avenirnext-demibold.woff2') format('woff2'),
+         url('avenirnext-demibold.woff') format('woff'),
+         url('avenirnext-demibold.ttf') format('truetype'),
+         url('avenirnext-demibold.svg#AvenirNextDemiBold') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirNext-Medium';
+    src: url('avenirnext-medium.eot');
+    src: url('avenirnext-medium.eot') format('embedded-opentype'),
+         url('avenirnext-medium.woff2') format('woff2'),
+         url('avenirnext-medium.woff') format('woff'),
+         url('avenirnext-medium.ttf') format('truetype'),
+         url('avenirnext-medium.svg#AvenirNextMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirNext-Heavy';
+    src: url('avenirnext-heavy.eot');
+    src: url('avenirnext-heavy.eot') format('embedded-opentype'),
+         url('avenirnext-heavy.woff2') format('woff2'),
+         url('avenirnext-heavy.woff') format('woff'),
+         url('avenirnext-heavy.ttf') format('truetype'),
+         url('avenirnext-heavy.svg#AvenirNextHeavy') format('svg');
+}
